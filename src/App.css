@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "Playfair Display";
+  src: url("src/fonts/PlayfairDisplay-VariableFont_wght.ttf") format("truetype"), url("src/fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 .App {
-  text-align: center;
+  align: center;
 }
 
 .App-logo {
@@ -12,13 +18,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
-  background-color: #282c34;
+  background-color: #fdf6e3;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -36,3 +41,6 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*# sourceMappingURL=App.css.map */

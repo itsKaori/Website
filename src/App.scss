@@ -1,0 +1,68 @@
+// solarized bgdark
+$base03:    #002b36;
+$base02:    #073642;
+// content tones
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+// solarized bglight 
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+// accents
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('src/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype'),
+       url('src/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App {
+  align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: $base3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items:  flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=App.scss.map */
