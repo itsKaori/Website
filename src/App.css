@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Playfair Display";
-  src: url("src/fonts/PlayfairDisplay-VariableFont_wght.ttf") format("truetype"), url("src/fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+  src: url("fonts/PlayfairDisplay-VariableFont_wght.ttf") format("truetype"), url("fonts/PlayfairDisplay-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -18,7 +18,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.App-header {
+.Menu {
   background-color: #fdf6e3;
   min-height: 100vh;
   display: flex;
