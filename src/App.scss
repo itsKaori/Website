@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+SC:400,700');
+
+$font-stack: 'Playfair Display', serif, 'Playfair SC', serif;
+
 // solarized bgdark
 $base03:    #002b36;
 $base02:    #073642;
@@ -19,41 +24,28 @@ $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
 
-@font-face {
-  font-family: 'Playfair Display';
-  src: url('fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype'),
-       url('fonts/PlayfairDisplay-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 
 .App {
-  align: center;
+  background-color: $base3;
+}
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: $base3;
+  color: $base01;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
 }
 
+a {
+  text-decoration: none;
+  color: $base01
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-.Menu {
-  background-color: $base3;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items:  flex-start;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {

@@ -1,16 +1,22 @@
-@font-face {
-  font-family: "Playfair Display";
-  src: url("fonts/PlayfairDisplay-VariableFont_wght.ttf") format("truetype"), url("fonts/PlayfairDisplay-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700");
+@import url("https://fonts.googleapis.com/css?family=Playfair+SC:400,700");
 .App {
-  align: center;
+  background-color: #fdf6e3;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Playfair Display", serif;
+  background-color: #fdf6e3;
+  color: #586e75;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  text-decoration: none;
+  color: #586e75;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -18,21 +24,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.Menu {
-  background-color: #fdf6e3;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
