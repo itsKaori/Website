@@ -5,7 +5,9 @@ function aboutme() {
   return (
     <body className="App">
         <Menu />
-        
+        <div className="greeting">
+            <img src={hello} className="greeting-png" alt="hello" />
+        </div>
     </body>
   );
 }
