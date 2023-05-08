@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700");
+@import url("https://fonts.googleapis.com/css?family=Playfair+SC:400,700");
+.App {
+  background-color: #fdf6e3;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  background-color: #fdf6e3;
+  color: #586e75;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  text-decoration: none;
+  color: #586e75;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.menu {
+  background-color: #fdf6e3;
+  font-family: "Playfair Display", serif, "Playfair SC", serif;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  max-width: fit-content;
+}
+
+.menutabs {
+  padding: 7px;
+  border: 1px solid;
+}
+
+.menu li {
+  padding: 50px 50px 50px 50px;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
+ul .menu {
+  list-style: none;
+  margin: auto auto;
+  padding: 10px 20px;
+}
+
+.home {
+  font-weight: bold;
+}
+
+.menu a.about:hover {
+  color: #268bd2;
+}
+
+.menu a.garden:hover {
+  color: #859900;
+}
+
+.menu a.portfolio:hover {
+  color: #6c71c4;
+}
+
+a.contact:hover {
+  color: #2aa198;
+}
+
+/*# sourceMappingURL=Menu.css.map */

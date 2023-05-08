@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+SC:400,700');
+
+$font-stack: 'Playfair Display', serif, 'Playfair SC', serif;
+
+// solarized bgdark
+$base03:    #002b36;
+$base02:    #073642;
+// content tones
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+// solarized bglight 
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+// accents
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+
+
+.App {
+  background-color: $base3;
+}
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: $base3;
+  color: $base01;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  text-decoration: none;
+  color: $base01
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=App.scss.map */
