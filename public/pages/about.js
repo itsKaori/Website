@@ -1,8 +1,7 @@
-import React from'react';
 import './App.css';
-import Menu from '../src/Menu.js';
+import Menu from './Menu.js';
 
-function App() {
+function aboutme() {
   return (
     <body className="App">
         <Menu />

@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: fit-content;
   font-family: 'Playfair Display', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
