@@ -1,0 +1,27 @@
+@import "Menu";
+@import "App";
+
+$grid-columns: 12;
+$grid-gap: 20px;
+
+.container {
+  display: grid;
+  grid-template-columns: repeat($grid-columns, 1fr);
+  grid-gap: $grid-gap;
+}
+
+.header {
+  grid-column: 1 / span $grid-columns;
+}
+
+.main {
+  grid-column: 1 / span 9;
+}
+
+.sidebar {
+  grid-column: 10 / span 3;
+}
+
+.footer {
+  grid-column: 1 / span $grid-columns;
+}

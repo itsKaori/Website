@@ -1,7 +1,7 @@
 import './App.css';
-import Menu from './Menu.js';
+import Menu from '../Menu';
 
-function aboutme() {
+function error() {
   return (
     <body className="App">
         <Menu />
@@ -10,4 +10,4 @@ function aboutme() {
   );
 }
 
-export default App;
+export default error;
